@@ -19,7 +19,12 @@ namespace _1
 
         private void btnpul_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("hola");
+            MessageBox.Show("hola mundo");
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hhh");
         }
     }
 }

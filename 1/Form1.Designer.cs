@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnpul = new System.Windows.Forms.Button();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // btnpul
@@ -41,11 +42,20 @@
             this.btnpul.UseVisualStyleBackColor = true;
             this.btnpul.Click += new System.EventHandler(this.btnpul_Click);
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(86, 40);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(100, 23);
+            this.progressBar1.TabIndex = 1;
+            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.btnpul);
             this.Name = "Form1";
             this.Text = "hola";
@@ -56,6 +66,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnpul;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
